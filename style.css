@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #data_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #data_table tr th, #data_table tr td {
+    border: 1px solid lightgray;
+    padding: 10px;
+  }
+  
+  #data_table tr th {
+    background-color: lightgray;
+    font-weight: bold;
+  }
+  
+  hr {
+    border: 1px solid lightgray;
+    margin: 20px 0;
+  }
+  
